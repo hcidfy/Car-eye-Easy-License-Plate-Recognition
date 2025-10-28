@@ -1,0 +1,12 @@
+# CCPD-mini YOLOv8 dataset config
+# 数据集根目录
+path: data/car_dataset
+
+# 数据划分
+train: images/train
+val: images/val
+test: images/test
+
+# 类别定义
+names:
+  0: LicensePlate
