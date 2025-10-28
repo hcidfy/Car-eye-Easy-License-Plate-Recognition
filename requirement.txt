@@ -1,8 +1,0 @@
-torch>=2.0.0
-torchvision>=0.15.0
-ultralytics>=8.0.0
-Pillow>=10.0.0
-editdistance>=0.6.2
-numpy>=1.24.0
-argparse
-pathlib

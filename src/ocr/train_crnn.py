@@ -10,7 +10,7 @@ from PIL import Image
 from pathlib import Path
 import editdistance
 DataRoot = Path(__file__).parent.parent.parent/"data"/"ocr_dataset"
-TrainImgDir=os.path.join(DataRoot,"images","trains")
+TrainImgDir=os.path.join(DataRoot,"images","train")
 ValImgDir=os.path.join(DataRoot,"images","val")
 TrainLabelDir=os.path.join(DataRoot,"txt","train.txt")
 ValLabelDir=os.path.join(DataRoot,"txt","val.txt")
